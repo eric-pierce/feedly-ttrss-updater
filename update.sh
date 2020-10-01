@@ -5,7 +5,8 @@ git remote update
 git reset --hard upstream/master --
 
 sed 's/font-family:SansCn/font-family:sans-serif;letter-spacing:-0.04em/g' feedly-compact_auto.css > feedly-compact_auto.css.ep
-sed 's/font-family:SansCn/font-family:sans-serif;letter-spacing:-0.04em/g' feedly-cozy_auto.css > feedly-cozy_auto.css.ep sed 's/font-family:SansCn/font-family:sans-serif;letter-spacing:-0.04em/g' feedly-sepia_auto.css > feedly-sepia_auto.css.ep
+sed 's/font-family:SansCn/font-family:sans-serif;letter-spacing:-0.04em/g' feedly-cozy_auto.css > feedly-cozy_auto.css.ep 
+sed 's/font-family:SansCn/font-family:sans-serif;letter-spacing:-0.04em/g' feedly-sepia_auto.css > feedly-sepia_auto.css.ep
 sed 's/font-family:SansCn/font-family:sans-serif;letter-spacing:-0.04em/g' feedly_auto.css > feedly_auto.css.ep
 sed 's/font-family:SansCn/font-family:sans-serif;letter-spacing:-0.04em/g' feedly-compact.css > feedly-compact.css.ep
 sed 's/font-family:SansCn/font-family:sans-serif;letter-spacing:-0.04em/g' feedly-compact_night.css > feedly-compact_night.css.ep
